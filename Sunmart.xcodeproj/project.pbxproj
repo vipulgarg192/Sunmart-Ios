@@ -14,6 +14,8 @@
 		108AF1DA24916852004A9F2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 108AF1D924916852004A9F2F /* Assets.xcassets */; };
 		108AF1DD24916852004A9F2F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 108AF1DC24916852004A9F2F /* Preview Assets.xcassets */; };
 		108AF1E024916852004A9F2F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 108AF1DE24916852004A9F2F /* LaunchScreen.storyboard */; };
+		108AF1E824916AFF004A9F2F /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 108AF1E724916AFF004A9F2F /* LoginView.swift */; };
+		108AF1EA249170BD004A9F2F /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 108AF1E9249170BD004A9F2F /* File.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		108AF1DC24916852004A9F2F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		108AF1DF24916852004A9F2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		108AF1E124916852004A9F2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		108AF1E724916AFF004A9F2F /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		108AF1E9249170BD004A9F2F /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +70,8 @@
 				108AF1E124916852004A9F2F /* Info.plist */,
 				108AF1D424916851004A9F2F /* Sunmart.xcdatamodeld */,
 				108AF1DB24916852004A9F2F /* Preview Content */,
+				108AF1E724916AFF004A9F2F /* LoginView.swift */,
+				108AF1E9249170BD004A9F2F /* File.swift */,
 			);
 			path = Sunmart;
 			sourceTree = "<group>";
@@ -150,8 +156,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				108AF1D124916851004A9F2F /* AppDelegate.swift in Sources */,
+				108AF1EA249170BD004A9F2F /* File.swift in Sources */,
 				108AF1D624916851004A9F2F /* Sunmart.xcdatamodeld in Sources */,
 				108AF1D824916851004A9F2F /* ContentView.swift in Sources */,
+				108AF1E824916AFF004A9F2F /* LoginView.swift in Sources */,
 				108AF1D324916851004A9F2F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
